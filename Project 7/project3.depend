@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1606338230 source:/home/augoodma/Desktop/Project 7/main.c
+	"alarm.h"
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"temp.h"
+	"tempfsm.h"
+	"uart.h"
+	"uartsocket.h"
+	"util.h"
+	"process_packet.h"
+	"vpd.h"
+	"wdt.h"
+
+1606317864 /home/augoodma/Desktop/Project 7/alarm.h
+
+1606317864 /home/augoodma/Desktop/Project 7/config.h
+
+1606317864 /home/augoodma/Desktop/Project 7/delay.h
+
+1606317864 /home/augoodma/Desktop/Project 7/eeprom.h
+
+1606317864 /home/augoodma/Desktop/Project 7/led.h
+
+1606317865 /home/augoodma/Desktop/Project 7/log.h
+
+1606317865 /home/augoodma/Desktop/Project 7/rtc.h
+
+1606317865 /home/augoodma/Desktop/Project 7/temp.h
+
+1606317865 /home/augoodma/Desktop/Project 7/tempfsm.h
+
+1606317865 /home/augoodma/Desktop/Project 7/uart.h
+
+1606317865 /home/augoodma/Desktop/Project 7/uartsocket.h
+
+1606317865 /home/augoodma/Desktop/Project 7/util.h
+
+1606317865 /home/augoodma/Desktop/Project 7/process_packet.h
+
+1606317865 /home/augoodma/Desktop/Project 7/vpd.h
+
+1606317865 /home/augoodma/Desktop/Project 7/wdt.h
+
+1606344430 source:/home/augoodma/Desktop/Project 7/tempfsm.c
+	"tempfsm.h"
+	"log.h"
+	"temp.h"
+	"process_packet.h"
+	"alarm.h"
+	"config.h"
+
+1606337589 source:/home/augoodma/Desktop/Project 7/util.c
+	"util.h"
+	"process_packet.h"
+	"config.h"
+
+1606344532 source:/home/augoodma/Desktop/Project 7/wdt.c
+	"wdt.h"
+	"led.h"
+	"log.h"
+	"config.h"
+

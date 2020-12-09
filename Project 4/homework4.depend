@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1604636785 source:/home/augoodma/Desktop/Project 4/main.c
+	"simpledelay.h"
+	"simpleled.h"
+	"temp.h"
+	"uart.h"
+
+1604609690 /home/augoodma/Desktop/Project 4/uart.h
+
+1604635438 source:/home/augoodma/Desktop/Project 4/temp.c
+
+1604609695 /home/augoodma/Desktop/Project 4/simpledelay.h
+
+1604609700 /home/augoodma/Desktop/Project 4/simpleled.h
+
+1604625819 /home/augoodma/Desktop/Project 4/temp.h
+

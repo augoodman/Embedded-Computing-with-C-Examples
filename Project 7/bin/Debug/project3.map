@@ -1,0 +1,1188 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                              obj/Debug/main.o (alarm_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                              obj/Debug/main.o (config)
+/home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                              obj/Debug/main.o (delay_isdone)
+/home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(config.o) (eeprom_writebuf)
+/home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                              obj/Debug/main.o (led_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                              obj/Debug/main.o (log_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                              obj/Debug/main.o (rtc_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (str_cpy)
+/home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                              obj/Debug/main.o (temp_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (timer1_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                              obj/Debug/main.o (uart_init)
+/home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                              obj/Debug/main.o (uartsocket_writestr)
+/home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o) (str_cmp)
+/home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o) (vpd)
+/home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o) (serial_init)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (__mulsi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (__udivmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(log.o) (__divmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (__udivmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o) (__divmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                              obj/Debug/tempfsm.o (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              obj/Debug/main.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              obj/Debug/tempfsm.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (__umulhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                              /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o) (__muluhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+rxbuf               0x40              /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+write_busy          0x1               /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+vpd                 0x37              /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+writeaddr           0x2               /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+rtc_base            0x4               /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+writesize           0x1               /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+writebuf            0x40              /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+txbuf               0x40              /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+bufidx              0x1               /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+config              0x12              /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Debug/main.o
+LOAD obj/Debug/tempfsm.o
+LOAD obj/Debug/util.o
+LOAD obj/Debug/wdt.o
+LOAD /home/augoodma/Desktop/Project 7/lib_projc.a
+LOAD /home/augoodma/Desktop/Project 7/lib_projc.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x29bc
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000000000000068       0x12 obj/Debug/tempfsm.o
+                0x000000000000007a                . = ALIGN (0x2)
+                0x000000000000007a                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000000000007a        0x0 linker stubs
+ *(.trampolines*)
+                0x000000000000007a                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x000000000000007a                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000000000007a                __ctors_start = .
+ *(.ctors)
+                0x000000000000007a                __ctors_end = .
+                0x000000000000007a                __dtors_start = .
+ *(.dtors)
+                0x000000000000007a                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000000000007a        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x000000000000007a                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000000000007a        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000086       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000086                __do_copy_data
+ .init4         0x000000000000009c       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x000000000000009c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000ac        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000b4        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000b4                __vector_1
+                0x00000000000000b4                __vector_24
+                0x00000000000000b4                __vector_12
+                0x00000000000000b4                __bad_interrupt
+                0x00000000000000b4                __vector_3
+                0x00000000000000b4                __vector_23
+                0x00000000000000b4                __vector_25
+                0x00000000000000b4                __vector_13
+                0x00000000000000b4                __vector_17
+                0x00000000000000b4                __vector_7
+                0x00000000000000b4                __vector_5
+                0x00000000000000b4                __vector_4
+                0x00000000000000b4                __vector_9
+                0x00000000000000b4                __vector_2
+                0x00000000000000b4                __vector_21
+                0x00000000000000b4                __vector_15
+                0x00000000000000b4                __vector_8
+                0x00000000000000b4                __vector_10
+                0x00000000000000b4                __vector_16
+                0x00000000000000b4                __vector_20
+ .text          0x00000000000000b8      0x120 obj/Debug/main.o
+                0x00000000000000b8                main
+ .text          0x00000000000001d8      0x320 obj/Debug/tempfsm.o
+                0x00000000000001d8                tempfsm_update
+                0x00000000000004cc                tempfsm_reset
+                0x00000000000004e2                tempfsm_init
+ .text          0x00000000000004f8       0xfe obj/Debug/util.o
+                0x00000000000004f8                update_tcrit_hi
+                0x0000000000000536                update_twarn_hi
+                0x000000000000057c                update_tcrit_lo
+                0x00000000000005b0                update_twarn_lo
+ .text          0x00000000000005f6       0xd4 obj/Debug/wdt.o
+                0x00000000000005f6                wdt_init
+                0x000000000000062e                wdt_reset
+                0x0000000000000632                wdt_force_restart
+                0x0000000000000644                __vector_6
+ .text          0x00000000000006ca       0x26 /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                0x00000000000006ca                alarm_init
+                0x00000000000006cc                alarm_send
+ .text          0x00000000000006f0       0xf0 /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                0x00000000000006f0                config_set_modified
+                0x00000000000006f8                config_is_data_valid
+                0x0000000000000738                config_write_defaults
+                0x0000000000000752                config_init
+                0x0000000000000788                config_update
+                0x00000000000007b8                config_update_noisr
+ .text          0x00000000000007e0      0x19e /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                0x00000000000007e0                __vector_14
+                0x0000000000000882                delay_init
+                0x00000000000008a6                delay_get
+                0x00000000000008c6                delay_isdone
+                0x00000000000008f8                delay_set
+                0x000000000000094c                millis
+ .text          0x000000000000097e      0x12c /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                0x000000000000097e                eeprom_startwrite
+                0x0000000000000984                __vector_22
+                0x0000000000000a10                eeprom_writebuf
+                0x0000000000000a4a                eeprom_writebuf_noisr
+                0x0000000000000a78                eeprom_readbuf
+                0x0000000000000aa2                eeprom_isbusy
+ .text          0x0000000000000aaa       0xfc /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                0x0000000000000aaa                led_init
+                0x0000000000000abc                led_on
+                0x0000000000000ac0                led_off
+                0x0000000000000ac4                led_set_blink
+                0x0000000000000ae8                led_update
+                0x0000000000000b9c                led_is_on
+ .text          0x0000000000000ba6      0x43c /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                0x0000000000000ba6                log_is_data_valid
+                0x0000000000000bf2                log_init
+                0x0000000000000d7c                log_update
+                0x0000000000000de8                log_update_noisr
+                0x0000000000000e4c                log_add_record
+                0x0000000000000eee                log_clear
+                0x0000000000000f28                log_get_num_entries
+                0x0000000000000f5a                log_get_record
+ .text          0x0000000000000fe2      0x5d8 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                0x0000000000000fe2                rtc_init
+                0x0000000000000fe6                rtc_get_date
+                0x0000000000000fea                rtc_set_date
+                0x0000000000000ffe                is_leapyear
+                0x0000000000001032                rtc_set_by_datestr
+                0x00000000000012fc                get_month
+                0x000000000000138c                rtc_num2datestr
+                0x0000000000001592                rtc_get_date_string
+ .text          0x00000000000015ba      0x144 /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+                0x00000000000015ba                mem_cpy
+                0x00000000000015d2                mem_set
+                0x00000000000015e6                mem_cmp
+                0x0000000000001614                str_cpy
+                0x0000000000001628                str_len
+                0x000000000000163a                str_writeudec16
+ .text          0x00000000000016fe       0x6e /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                0x00000000000016fe                temp_init
+                0x000000000000170c                temp_is_data_ready
+                0x0000000000001722                temp_start
+                0x000000000000172e                temp_get
+ .text          0x000000000000176c       0x9a /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                0x000000000000176c                __vector_11
+                0x00000000000017b6                timer1_init
+                0x00000000000017d6                timer1_get
+                0x00000000000017ee                timer1_clear
+ .text          0x0000000000001806      0x23c /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                0x0000000000001806                uart_init
+                0x000000000000180e                uart_writechar
+                0x0000000000001812                uart_writestr
+                0x000000000000182a                uart_writehex8
+                0x000000000000185c                uart_writehex16
+                0x000000000000186e                uart_writedec32
+                0x0000000000001996                uart_is_connected
+                0x000000000000199a                uart_is_packet_available
+                0x000000000000199e                uart_readpacket
+                0x00000000000019fe                uart_writeip
+ .text          0x0000000000001a42      0x72e /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                0x0000000000001ae4                uartsocket_writechar
+                0x0000000000001ae8                uartsocket_writestr
+                0x0000000000001aec                uartsocket_writehex8
+                0x0000000000001af0                uartsocket_writehex16
+                0x0000000000001af4                uartsocket_writedec32
+                0x0000000000001af8                uartsocket_is_connected
+                0x0000000000001afc                uartsocket_is_packet_available
+                0x0000000000001b00                uartsocket_readpacket
+                0x0000000000001b84                parse_and_send_response
+ .text          0x0000000000002170      0x214 /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                0x0000000000002170                str_cmp
+                0x00000000000021a6                update_checksum
+                0x00000000000021ce                random_seed
+                0x0000000000002204                random
+                0x0000000000002306                strtoi
+ .text          0x0000000000002384       0xc6 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                0x0000000000002384                vpd_is_data_valid
+                0x00000000000023c4                vpd_write_defaults
+                0x0000000000002418                vpd_init
+ .text          0x000000000000244a      0x43c /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                0x000000000000244a                serial_init
+                0x0000000000002470                __vector_18
+                0x00000000000026c0                __vector_19
+                0x0000000000002726                serial_rxchars
+                0x0000000000002734                serial_popchar
+                0x000000000000277e                serial_isconnected
+                0x00000000000027cc                serial_is_packet_ready
+                0x00000000000027d2                serial_writechar
+                0x0000000000002832                serial_writestr
+                0x000000000000285c                serial_writestr_P
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x0000000000002886        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000002886                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc.mul
+                0x0000000000002886       0x20 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000002886                __mulsi3
+ .text.libgcc.div
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x00000000000028a6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x00000000000028a6       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x00000000000028a6                __udivmodhi4
+ .text.libgcc   0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x00000000000028ce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x00000000000028ce       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                0x00000000000028ce                __divmodhi4
+                0x00000000000028ce                _div
+ .text.libgcc   0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x00000000000028f6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00000000000028f6       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x00000000000028f6                __udivmodsi4
+ .text.libgcc   0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x000000000000293a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x000000000000293a       0x2e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                0x000000000000293a                __divmodsi4
+ .text.libgcc   0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000002968        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000002968       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                0x0000000000002968                __negsi2
+ .text.libgcc   0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000002978        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000002978        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000002978                __tablejump2__
+ .text.libgcc.prologue
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000002984        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000002984       0x1e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000002984                __umulhisi3
+ .text.libgcc.div
+                0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x00000000000029a2        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000000029a2       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000029a2                __muluhisi3
+ .text.libgcc.div
+                0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000029b8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000029b8        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x00000000000029b8                exit
+                0x00000000000029b8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000029b8        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000029bc                _etext = .
+
+.siminfo        0x00000000000029bc       0x28
+ .siminfo       0x00000000000029bc       0x28 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                0x00000000000029bc                siminfo_serial_out
+                0x00000000000029c7                siminfo_serial_in
+                0x00000000000029d2                siminfo_cpufrequency
+                0x00000000000029d8                siminfo_device
+
+.data           0x0000000000800100      0x2ba load address 0x00000000000029e4
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100        0x2 obj/Debug/main.o
+                0x0000000000800100                current_temperature
+ .data          0x0000000000800102        0x0 obj/Debug/tempfsm.o
+ .data          0x0000000000800102        0x0 obj/Debug/util.o
+ .data          0x0000000000800102        0x0 obj/Debug/wdt.o
+ .data          0x0000000000800102        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+ .data          0x0000000000800102       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+ .data          0x0000000000800114        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+ .data          0x0000000000800114        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+ .data          0x0000000000800114        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+ .data          0x0000000000800114        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+ .data          0x0000000000800114       0x14 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+ .data          0x0000000000800128        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+ .data          0x0000000000800128        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+ .data          0x0000000000800128        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+ .data          0x0000000000800128        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+ .data          0x0000000000800128        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+ .data          0x0000000000800128        0x8 /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+ .data          0x0000000000800130        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+ .data          0x0000000000800130        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800130        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x0000000000800130       0x5f obj/Debug/main.o
+ .rodata        0x000000000080018f        0xc /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+ .rodata        0x000000000080019b       0x37 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000008001d2        0xa /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                                          0xd (size before relaxing)
+ .rodata.str1.1
+                0x00000000008001dc       0x14 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+ .rodata.str1.1
+                0x00000000008001f0        0x3 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+ .rodata.str1.1
+                0x00000000008001f0      0x1c9 /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                        0x1d6 (size before relaxing)
+ *(.gnu.linkonce.d*)
+                0x00000000008003ba                . = ALIGN (0x2)
+ *fill*         0x00000000008003b9        0x1 
+                0x00000000008003ba                _edata = .
+                0x00000000008003ba                PROVIDE (__data_end, .)
+
+.bss            0x00000000008003ba      0x1ff
+                0x00000000008003ba                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00000000008003ba        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x00000000008003ba        0x0 obj/Debug/main.o
+ .bss           0x00000000008003ba        0xb obj/Debug/tempfsm.o
+ .bss           0x00000000008003c5        0x0 obj/Debug/util.o
+ .bss           0x00000000008003c5        0x0 obj/Debug/wdt.o
+ .bss           0x00000000008003c5        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+ .bss           0x00000000008003c5        0x1 /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+ .bss           0x00000000008003c6        0xe /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+ .bss           0x00000000008003d4        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+ .bss           0x00000000008003d4        0x5 /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+ .bss           0x00000000008003d9       0x83 /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+ .bss           0x000000000080045c        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+ .bss           0x000000000080045c        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+ .bss           0x000000000080045c        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+ .bss           0x000000000080045c        0x4 /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+ .bss           0x0000000000800460        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+ .bss           0x0000000000800460       0x40 /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+ .bss           0x00000000008004a0        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+ .bss           0x00000000008004a0        0x0 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+ .bss           0x00000000008004a0        0x7 /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                0x00000000008004a0                txtail
+                0x00000000008004a1                txhead
+                0x00000000008004a2                rxtail
+                0x00000000008004a3                rxhead
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x00000000008004a7        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00000000008004a7       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                0x00000000008004a7                config
+ COMMON         0x00000000008004b9       0x45 /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                0x00000000008004b9                write_busy
+                0x00000000008004ba                writeaddr
+                0x00000000008004bc                writesize
+                0x00000000008004bd                writebuf
+                0x00000000008004fd                bufidx
+ COMMON         0x00000000008004fe        0x4 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                0x00000000008004fe                rtc_base
+ COMMON         0x0000000000800502       0x37 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                0x0000000000800502                vpd
+ COMMON         0x0000000000800539       0x80 /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                0x0000000000800539                rxbuf
+                0x0000000000800579                txbuf
+                0x00000000008005b9                PROVIDE (__bss_end, .)
+                0x00000000000029e4                __data_load_start = LOADADDR (.data)
+                0x0000000000002c9e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008005b9        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x00000000008005b9                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000     0x153c
+ *(.stab)
+ .stab          0x0000000000000000      0x504 obj/Debug/main.o
+ .stab          0x0000000000000504      0x750 obj/Debug/tempfsm.o
+                                        0x774 (size before relaxing)
+ .stab          0x0000000000000c54      0x48c obj/Debug/util.o
+                                        0x4b0 (size before relaxing)
+ .stab          0x00000000000010e0      0x45c obj/Debug/wdt.o
+                                        0x480 (size before relaxing)
+
+.stabstr        0x0000000000000000      0xc66
+ *(.stabstr)
+ .stabstr       0x0000000000000000      0xc66 obj/Debug/main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/Debug/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 obj/Debug/tempfsm.o
+ .comment       0x0000000000000011       0x12 obj/Debug/util.o
+ .comment       0x0000000000000011       0x12 obj/Debug/wdt.o
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Debug/project3.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+__divmodsi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  obj/Debug/tempfsm.o
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                                                  obj/Debug/main.o
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__mulsi3                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+__muluhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+__negsi2                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__tablejump2__                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                                                  obj/Debug/tempfsm.o
+__udivmodhi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+__umulhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+__vector_1                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        obj/Debug/wdt.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_div                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+alarm_init                                        /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                                                  obj/Debug/main.o
+alarm_send                                        /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                                                  obj/Debug/tempfsm.o
+bufidx                                            /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+config                                            /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  obj/Debug/util.o
+                                                  obj/Debug/main.o
+config_init                                       /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  obj/Debug/main.o
+config_is_data_valid                              /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+config_set_modified                               /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+config_update                                     /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  obj/Debug/main.o
+config_update_noisr                               /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  obj/Debug/wdt.o
+config_write_defaults                             /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+current_temperature                               obj/Debug/main.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+delay_get                                         /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+delay_init                                        /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+delay_isdone                                      /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  obj/Debug/main.o
+delay_set                                         /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  obj/Debug/main.o
+eeprom_isbusy                                     /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+                                                  obj/Debug/main.o
+eeprom_readbuf                                    /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+eeprom_startwrite                                 /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+eeprom_writebuf                                   /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+eeprom_writebuf_noisr                             /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+get_month                                         /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+is_leapyear                                       /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+led_init                                          /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  obj/Debug/main.o
+led_is_on                                         /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+led_off                                           /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+led_on                                            /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  obj/Debug/wdt.o
+led_set_blink                                     /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+led_update                                        /home/augoodma/Desktop/Project 7/lib_projc.a(led.o)
+                                                  obj/Debug/main.o
+log_add_record                                    /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  obj/Debug/wdt.o
+                                                  obj/Debug/main.o
+log_clear                                         /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+log_get_num_entries                               /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+log_get_record                                    /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+log_init                                          /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  obj/Debug/main.o
+log_is_data_valid                                 /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+log_update                                        /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  obj/Debug/main.o
+log_update_noisr                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  obj/Debug/wdt.o
+main                                              obj/Debug/main.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+mem_cmp                                           /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+mem_cpy                                           /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+mem_set                                           /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+millis                                            /home/augoodma/Desktop/Project 7/lib_projc.a(delay.o)
+parse_and_send_response                           /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  obj/Debug/main.o
+random                                            /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+random_seed                                       /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+rtc_base                                          /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+rtc_get_date                                      /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+rtc_get_date_string                               /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+rtc_init                                          /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                                                  obj/Debug/main.o
+rtc_num2datestr                                   /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+rtc_set_by_datestr                                /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+rtc_set_date                                      /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+rxbuf                                             /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+rxhead                                            /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+rxtail                                            /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+serial_init                                       /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_is_packet_ready                            /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_isconnected                                /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_popchar                                    /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_rxchars                                    /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_writechar                                  /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+serial_writestr                                   /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+serial_writestr_P                                 /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+siminfo_cpufrequency                              /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+siminfo_device                                    /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+siminfo_serial_in                                 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+siminfo_serial_out                                /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+str_cmp                                           /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+str_cpy                                           /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+str_len                                           /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+str_writeudec16                                   /home/augoodma/Desktop/Project 7/lib_projc.a(str.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+strtoi                                            /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+temp_get                                          /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                                                  obj/Debug/main.o
+temp_init                                         /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                                                  obj/Debug/main.o
+temp_is_data_ready                                /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+temp_start                                        /home/augoodma/Desktop/Project 7/lib_projc.a(temp.o)
+                                                  obj/Debug/main.o
+tempfsm_init                                      obj/Debug/tempfsm.o
+                                                  obj/Debug/main.o
+tempfsm_reset                                     obj/Debug/tempfsm.o
+tempfsm_update                                    obj/Debug/tempfsm.o
+                                                  obj/Debug/main.o
+timer1_clear                                      /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+timer1_get                                        /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+timer1_init                                       /home/augoodma/Desktop/Project 7/lib_projc.a(timer1.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(rtc.o)
+txbuf                                             /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+txhead                                            /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+txtail                                            /home/augoodma/Desktop/Project 7/lib_projc.a(serial.o)
+uart_init                                         /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  obj/Debug/main.o
+uart_is_connected                                 /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+uart_is_packet_available                          /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+uart_readpacket                                   /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+uart_writechar                                    /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uart_writedec32                                   /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+uart_writehex16                                   /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uart_writehex8                                    /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uart_writeip                                      /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+uart_writestr                                     /home/augoodma/Desktop/Project 7/lib_projc.a(uart.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(alarm.o)
+                                                  obj/Debug/main.o
+uartsocket_is_connected                           /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  obj/Debug/main.o
+uartsocket_is_packet_available                    /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  obj/Debug/main.o
+uartsocket_readpacket                             /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uartsocket_writechar                              /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uartsocket_writedec32                             /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uartsocket_writehex16                             /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uartsocket_writehex8                              /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+uartsocket_writestr                               /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+                                                  obj/Debug/main.o
+update_checksum                                   /home/augoodma/Desktop/Project 7/lib_projc.a(util.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(log.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(config.o)
+update_tcrit_hi                                   obj/Debug/util.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+update_tcrit_lo                                   obj/Debug/util.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+update_twarn_hi                                   obj/Debug/util.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+update_twarn_lo                                   obj/Debug/util.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+vpd                                               /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+vpd_init                                          /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+                                                  obj/Debug/main.o
+vpd_is_data_valid                                 /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+vpd_write_defaults                                /home/augoodma/Desktop/Project 7/lib_projc.a(vpd.o)
+wdt_force_restart                                 obj/Debug/wdt.o
+                                                  /home/augoodma/Desktop/Project 7/lib_projc.a(uartsocket.o)
+wdt_init                                          obj/Debug/wdt.o
+                                                  obj/Debug/main.o
+wdt_reset                                         obj/Debug/wdt.o
+                                                  obj/Debug/main.o
+write_busy                                        /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+writeaddr                                         /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+writebuf                                          /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)
+writesize                                         /home/augoodma/Desktop/Project 7/lib_projc.a(eeprom.o)

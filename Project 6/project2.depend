@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1605753163 source:/home/augoodma/Desktop/Project 6/config.c
+	"eeprom.h"
+	"util.h"
+	"config.h"
+
+1605672009 /home/augoodma/Desktop/Project 6/eeprom.h
+
+1605584131 /home/augoodma/Desktop/Project 6/util.h
+
+1605753148 /home/augoodma/Desktop/Project 6/config.h
+
+1605748541 source:/home/augoodma/Desktop/Project 6/eeprom.c
+	"eeprom.h"
+
+1605753188 source:/home/augoodma/Desktop/Project 6/main.c
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"timer1.h"
+	"uart.h"
+	"util.h"
+	"vpd.h"
+
+1605584087 /home/augoodma/Desktop/Project 6/delay.h
+
+1605584092 /home/augoodma/Desktop/Project 6/led.h
+
+1605645779 /home/augoodma/Desktop/Project 6/log.h
+
+1605584105 /home/augoodma/Desktop/Project 6/rtc.h
+
+1605584112 /home/augoodma/Desktop/Project 6/timer1.h
+
+1605584124 /home/augoodma/Desktop/Project 6/uart.h
+
+1605753148 /home/augoodma/Desktop/Project 6/vpd.h
+
+1605672327 source:/home/augoodma/Desktop/Project 6/util.c
+
+1605753198 source:/home/augoodma/Desktop/Project 6/vpd.c
+	"eeprom.h"
+	"util.h"
+	"vpd.h"
+
+1605906464 source:/home/augoodma/Desktop/Project 6 (copy)/config.c
+	"eeprom.h"
+	"util.h"
+	"config.h"
+
+1605672009 /home/augoodma/Desktop/Project 6 (copy)/eeprom.h
+
+1605584131 /home/augoodma/Desktop/Project 6 (copy)/util.h
+
+1605844496 /home/augoodma/Desktop/Project 6 (copy)/config.h
+
+1605906464 source:/home/augoodma/Desktop/Project 6 (copy)/eeprom.c
+	"eeprom.h"
+
+1605906464 source:/home/augoodma/Desktop/Project 6 (copy)/main.c
+	"config.h"
+	"delay.h"
+	"eeprom.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"timer1.h"
+	"uart.h"
+	"util.h"
+	"vpd.h"
+
+1605584087 /home/augoodma/Desktop/Project 6 (copy)/delay.h
+
+1605584092 /home/augoodma/Desktop/Project 6 (copy)/led.h
+
+1605645779 /home/augoodma/Desktop/Project 6 (copy)/log.h
+
+1605584105 /home/augoodma/Desktop/Project 6 (copy)/rtc.h
+
+1605584112 /home/augoodma/Desktop/Project 6 (copy)/timer1.h
+
+1605584124 /home/augoodma/Desktop/Project 6 (copy)/uart.h
+
+1605844496 /home/augoodma/Desktop/Project 6 (copy)/vpd.h
+
+1605911102 source:/home/augoodma/Desktop/Project 6 (copy)/util.c
+
+1605906464 source:/home/augoodma/Desktop/Project 6 (copy)/vpd.c
+	"eeprom.h"
+	"util.h"
+	"vpd.h"
+

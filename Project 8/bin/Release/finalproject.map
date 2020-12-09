@@ -1,0 +1,1602 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                              obj/Release/main.o (alarm_send)
+/home/augoodma/Desktop/test/lib_projd.a(config.o)
+                              obj/Release/main.o (config)
+/home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                              obj/Release/main.o (delay_set)
+/home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                              obj/Release/main.o (dhcp_getLocalIp)
+/home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(config.o) (eeprom_writebuf)
+/home/augoodma/Desktop/test/lib_projd.a(led.o)
+                              obj/Release/main.o (led_init)
+/home/augoodma/Desktop/test/lib_projd.a(log.o)
+                              obj/Release/main.o (log_init)
+/home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                              obj/Release/main.o (ntp_sync_network_time)
+/home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                              obj/Release/main.o (rtc_init)
+/home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                              obj/Release/main.o (signature_set)
+/home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(alarm.o) (udpsocket_open_multicast)
+/home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                              obj/Release/main.o (spi_init)
+/home/augoodma/Desktop/test/lib_projd.a(str.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o) (mem_cpy)
+/home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                              obj/Release/main.o (temp_init)
+/home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                              obj/Release/main.o (tempfsm_init)
+/home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(rtc.o) (timer1_init)
+/home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                              obj/Release/main.o (uart_init)
+/home/augoodma/Desktop/test/lib_projd.a(util.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(signature.o) (str_cmp)
+/home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                              obj/Release/main.o (vpd)
+/home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                              obj/Release/main.o (W5x_config)
+/home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                              obj/Release/main.o (wdt_init)
+/home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(uart.o) (serial_init)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(rtc.o) (__mulsi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(rtc.o) (__udivmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(log.o) (__divmodhi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o) (__udivmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(socket.o) (__divmodsi4)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o) (__negsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                              obj/Release/main.o (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                              obj/Release/main.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                              obj/Release/main.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o) (__bswapsi2)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(rtc.o) (__umulhisi3)
+/usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                              /home/augoodma/Desktop/test/lib_projd.a(rtc.o) (__muluhisi3)
+
+Allocating common symbols
+Common symbol       size              file
+
+rxbuf               0x40              /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+write_busy          0x1               /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+vpd                 0x37              /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+writeaddr           0x2               /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+rtc_base            0x4               /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+writesize           0x1               /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+state               0x2               obj/Release/main.o
+num                 0x2               obj/Release/main.o
+num_logs            0x2               obj/Release/main.o
+buf                 0x1               obj/Release/main.o
+writebuf            0x40              /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+txbuf               0x40              /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+bufidx              0x1               /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+config              0x12              /home/augoodma/Desktop/test/lib_projd.a(config.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000003 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+LOAD obj/Release/main.o
+LOAD /home/augoodma/Desktop/test/lib_projd.a
+LOAD /home/augoodma/Desktop/test/lib_projd.a
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/libatmega328p.a
+END GROUP
+                0x0000000000020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x000000000000ffa0                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                0x0000000000010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x0000000000000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x0000000000000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x0000000000000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x0000000000000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x4da2
+ *(.vectors)
+ .vectors       0x0000000000000000       0x68 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000000000000068        0xe obj/Release/main.o
+ .progmem.gcc_sw_table
+                0x0000000000000076       0x12 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                0x0000000000000088                . = ALIGN (0x2)
+                0x0000000000000088                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000088        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000088                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x0000000000000088                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000088                __ctors_start = .
+ *(.ctors)
+                0x0000000000000088                __ctors_end = .
+                0x0000000000000088                __dtors_start = .
+ *(.dtors)
+                0x0000000000000088                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000088        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x0000000000000088                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000088        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000000000000094       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                0x0000000000000094                __do_copy_data
+ .init4         0x00000000000000aa       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000000aa                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000000ba        0x8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000000c2        0x4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+                0x00000000000000c2                __vector_1
+                0x00000000000000c2                __vector_24
+                0x00000000000000c2                __vector_12
+                0x00000000000000c2                __bad_interrupt
+                0x00000000000000c2                __vector_3
+                0x00000000000000c2                __vector_23
+                0x00000000000000c2                __vector_25
+                0x00000000000000c2                __vector_13
+                0x00000000000000c2                __vector_17
+                0x00000000000000c2                __vector_7
+                0x00000000000000c2                __vector_5
+                0x00000000000000c2                __vector_4
+                0x00000000000000c2                __vector_9
+                0x00000000000000c2                __vector_2
+                0x00000000000000c2                __vector_21
+                0x00000000000000c2                __vector_15
+                0x00000000000000c2                __vector_8
+                0x00000000000000c2                __vector_10
+                0x00000000000000c2                __vector_16
+                0x00000000000000c2                __vector_20
+ .text          0x00000000000000c6        0x0 obj/Release/main.o
+ .text          0x00000000000000c6      0x18c /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                0x00000000000000c6                alarm_init
+                0x00000000000000c8                alarm_send
+ .text          0x0000000000000252       0xf0 /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                0x0000000000000252                config_set_modified
+                0x000000000000025a                config_is_data_valid
+                0x000000000000029a                config_write_defaults
+                0x00000000000002b4                config_init
+                0x00000000000002ea                config_update
+                0x000000000000031a                config_update_noisr
+ .text          0x0000000000000342      0x19e /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                0x0000000000000342                __vector_14
+                0x00000000000003e4                delay_init
+                0x0000000000000408                delay_get
+                0x0000000000000428                delay_isdone
+                0x000000000000045a                delay_set
+                0x00000000000004ae                millis
+ .text          0x00000000000004e0      0xbfc /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                0x00000000000004e0                dhcp_getLocalIp
+                0x00000000000004e6                dhcp_getSubnetMask
+                0x00000000000004ec                dhcp_getGatewayIp
+                0x00000000000004f2                dhcp_getDhcpServerIp
+                0x00000000000004f8                dhcp_getDnsServerIp
+                0x00000000000004fe                _ZN9DhcpClass16reset_DHCP_leaseEv
+                0x000000000000050a                _ZN9DhcpClass12presend_DHCPEv
+                0x000000000000050c                _ZN9DhcpClass17parseDHCPResponseEmRm
+                0x0000000000000942                _ZN9DhcpClass10getLocalIpEv
+                0x0000000000000946                _ZN9DhcpClass13getSubnetMaskEv
+                0x000000000000094a                _ZN9DhcpClass12getGatewayIpEv
+                0x000000000000094e                _ZN9DhcpClass15getDhcpServerIpEv
+                0x0000000000000952                _ZN9DhcpClass14getDnsServerIpEv
+                0x0000000000000956                _ZN9DhcpClass9printByteEPch
+                0x0000000000000980                _ZN9DhcpClass17send_DHCP_MESSAGEEhj
+                0x0000000000000bfc                _ZN9DhcpClass18request_DHCP_leaseEv
+                0x0000000000000ef8                _ZN9DhcpClass13beginWithDHCPEPhmm
+                0x0000000000000f76                dhcp_start
+                0x0000000000000f9a                _ZN9DhcpClass10checkLeaseEv
+                0x00000000000010d4                dhcp_checkLease
+ .text          0x00000000000010dc      0x12c /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                0x00000000000010dc                eeprom_startwrite
+                0x00000000000010e2                __vector_22
+                0x000000000000116e                eeprom_writebuf
+                0x00000000000011a8                eeprom_writebuf_noisr
+                0x00000000000011d6                eeprom_readbuf
+                0x0000000000001200                eeprom_isbusy
+ .text          0x0000000000001208       0xfc /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                0x0000000000001208                led_init
+                0x000000000000121a                led_on
+                0x000000000000121e                led_off
+                0x0000000000001222                led_set_blink
+                0x0000000000001246                led_update
+                0x00000000000012fa                led_is_on
+ .text          0x0000000000001304      0x43c /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                0x0000000000001304                log_is_data_valid
+                0x0000000000001350                log_init
+                0x00000000000014da                log_update
+                0x0000000000001546                log_update_noisr
+                0x00000000000015aa                log_add_record
+                0x000000000000164c                log_clear
+                0x0000000000001686                log_get_num_entries
+                0x00000000000016b8                log_get_record
+ .text          0x0000000000001740      0x1be /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                0x0000000000001740                ntp_sync_network_time
+ .text          0x00000000000018fe      0x5d8 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                0x00000000000018fe                rtc_init
+                0x0000000000001902                rtc_get_date
+                0x0000000000001906                rtc_set_date
+                0x000000000000191a                is_leapyear
+                0x000000000000194e                rtc_set_by_datestr
+                0x0000000000001c18                get_month
+                0x0000000000001ca8                rtc_num2datestr
+                0x0000000000001eae                rtc_get_date_string
+ .text          0x0000000000001ed6       0xea /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                0x0000000000001ed6                signature_set
+                0x0000000000001f9e                check_for_test_start
+ .text          0x0000000000001fc0      0xb78 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                0x0000000000001fc0                udpsocket_open_multicast
+                0x0000000000002046                udpsocket_is_open
+                0x0000000000002056                socket_is_active
+                0x0000000000002072                socket_is_listening
+                0x0000000000002082                socket_is_established
+                0x0000000000002092                socket_is_closed
+                0x00000000000020a0                udpsocket_is_closed
+                0x00000000000020a4                socket_close
+                0x000000000000210a                udpsocket_open
+                0x0000000000002112                socket_open
+                0x000000000000211a                udpsocket_close
+                0x000000000000211e                socket_listen
+                0x000000000000213c                socket_connect
+                0x00000000000021a4                socket_disconnect
+                0x00000000000021aa                socket_send
+                0x0000000000002236                socket_recv
+                0x00000000000022aa                socket_recv_available
+                0x00000000000022ae                udpsocket_recv_available
+                0x00000000000022b2                socket_peek
+                0x00000000000022c2                udpsocket_sendto
+                0x0000000000002366                udpsocket_recv_data
+                0x00000000000023a8                udpsocket_recvfrom
+                0x00000000000024fa                socket_igmpsend
+                0x0000000000002558                udpsocket_add_to_datagram
+                0x000000000000259e                socket_writestr
+                0x00000000000025be                socket_writechar
+                0x00000000000025e0                socket_writequotedstring
+                0x0000000000002606                socket_writedate
+                0x0000000000002620                socket_writehex8
+                0x000000000000265c                socket_write_macaddress
+                0x00000000000026ae                socket_writehex16
+                0x00000000000026c8                socket_writedec32
+                0x00000000000027ee                udpsocket_start_datagram
+                0x0000000000002838                udpsocket_send_datagram
+                0x0000000000002874                socket_received_line
+                0x00000000000028d0                socket_is_blank_line
+                0x0000000000002914                socket_recv_compare
+                0x00000000000029c0                socket_flush_line
+                0x0000000000002a52                socket_recv_int
+ .text          0x0000000000002b38       0x5c /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                0x0000000000002b38                spi_init
+                0x0000000000002b5c                spi_is_locked
+                0x0000000000002b62                spi_begin_transfer
+                0x0000000000002b7e                spi_transfer
+                0x0000000000002b8c                spi_end_transfer
+ .text          0x0000000000002b94      0x144 /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                0x0000000000002b94                mem_cpy
+                0x0000000000002bac                mem_set
+                0x0000000000002bc0                mem_cmp
+                0x0000000000002bee                str_cpy
+                0x0000000000002c02                str_len
+                0x0000000000002c14                str_writeudec16
+ .text          0x0000000000002cd8       0x6e /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                0x0000000000002cd8                temp_init
+                0x0000000000002ce6                temp_is_data_ready
+                0x0000000000002cfc                temp_start
+                0x0000000000002d08                temp_get
+ .text          0x0000000000002d46      0x170 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                0x0000000000002d46                tempfsm_init
+                0x0000000000002d48                tempfsm_update
+                0x0000000000002eac                tempfsm_reset
+ .text          0x0000000000002eb6       0x9a /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                0x0000000000002eb6                __vector_11
+                0x0000000000002f00                timer1_init
+                0x0000000000002f20                timer1_get
+                0x0000000000002f38                timer1_clear
+ .text          0x0000000000002f50      0x23c /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                0x0000000000002f50                uart_init
+                0x0000000000002f58                uart_writechar
+                0x0000000000002f5c                uart_writestr
+                0x0000000000002f74                uart_writehex8
+                0x0000000000002fa6                uart_writehex16
+                0x0000000000002fb8                uart_writedec32
+                0x00000000000030e0                uart_is_connected
+                0x00000000000030e4                uart_is_packet_available
+                0x00000000000030e8                uart_readpacket
+                0x0000000000003148                uart_writeip
+ .text          0x000000000000318c      0x214 /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                0x000000000000318c                str_cmp
+                0x00000000000031c2                update_checksum
+                0x00000000000031ea                random_seed
+                0x0000000000003220                random
+                0x0000000000003322                strtoi
+ .text          0x00000000000033a0       0xc6 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                0x00000000000033a0                vpd_is_data_valid
+                0x00000000000033e0                vpd_write_defaults
+                0x0000000000003434                vpd_init
+ .text          0x0000000000003466      0xbfe /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                0x0000000000003466                W5x_writebuf
+                0x000000000000356c                W5x_write
+                0x000000000000358e                W5x_config
+                0x000000000000372a                W5x_readbuf
+                0x0000000000003834                W5x_read
+                0x0000000000003856                W5x_readSn
+                0x0000000000003866                W5x_writeSn
+                0x000000000000387c                W5x_readbufSn
+                0x0000000000003892                W5x_writebufSn
+                0x00000000000038a8                W5x_read_data
+                0x000000000000392e                W5x_writeMR
+                0x0000000000003938                W5x_readMR
+                0x0000000000003940                isW5100
+                0x00000000000039b6                isW5500
+                0x0000000000003a2c                W5x_init
+                0x0000000000003a3a                W5x_writebufGAR
+                0x0000000000003a48                W5x_readbufGAR
+                0x0000000000003a56                W5x_writebufSUBR
+                0x0000000000003a64                W5x_readbufSUBR
+                0x0000000000003a72                W5x_writebufSHAR
+                0x0000000000003a80                W5x_readbufSHAR
+                0x0000000000003a8e                W5x_writebufSIPR
+                0x0000000000003a9c                W5x_readbufSIPR
+                0x0000000000003aaa                W5x_writeIR
+                0x0000000000003ab4                W5x_readIR
+                0x0000000000003abc                W5x_writeRTR
+                0x0000000000003ad6                W5x_readRTR
+                0x0000000000003b00                W5x_writebufUIPR
+                0x0000000000003b0e                W5x_readbufUIPR
+                0x0000000000003b1c                W5x_writeUPORT
+                0x0000000000003b36                W5x_readUPORT
+                0x0000000000003b60                W5x_writeSnMR
+                0x0000000000003b6a                W5x_readSnMR
+                0x0000000000003b72                W5x_writeSnCR
+                0x0000000000003b7c                W5x_readSnCR
+                0x0000000000003b84                W5x_execCmdSn
+                0x0000000000003b9a                W5x_writeSnIR
+                0x0000000000003ba4                W5x_readSnIR
+                0x0000000000003bac                W5x_writeSnSR
+                0x0000000000003bb6                W5x_readSnSR
+                0x0000000000003bbe                W5x_writeSnPORT
+                0x0000000000003be0                W5x_readSnPORT
+                0x0000000000003c10                W5x_writeSnDHAR
+                0x0000000000003c1e                W5x_readSnDHAR
+                0x0000000000003c2c                W5x_writeSnDIPR
+                0x0000000000003c3a                W5x_readSnDIPR
+                0x0000000000003c48                W5x_writeSnDPORT
+                0x0000000000003c6a                W5x_readSnDPORT
+                0x0000000000003c9a                W5x_writeSnMSSR
+                0x0000000000003cbc                W5x_readSnMSSR
+                0x0000000000003cec                W5x_writeSnTX_FSR
+                0x0000000000003d0e                W5x_readSnTX_FSR
+                0x0000000000003d3e                W5x_getTXFreeSize
+                0x0000000000003d76                W5x_writeSnTX_RD
+                0x0000000000003d98                W5x_readSnTX_RD
+                0x0000000000003dc8                W5x_writeSnTX_WR
+                0x0000000000003dea                W5x_send_data_processing_offset
+                0x0000000000003e80                W5x_send_data_processing
+                0x0000000000003e8c                W5x_readSnTX_WR
+                0x0000000000003ebc                W5x_writeSnRX_RSR
+                0x0000000000003ede                W5x_readSnRX_RSR
+                0x0000000000003f0e                W5x_getRXReceivedSize
+                0x0000000000003f46                W5x_writeSnRX_RD
+                0x0000000000003f68                W5x_readSnRX_RD
+                0x0000000000003f98                W5x_recv_data_processing_offset
+                0x0000000000004002                W5x_recv_data_processing
+                0x0000000000004012                W5x_writeSnRX_WR
+                0x0000000000004034                W5x_readSnRX_WR
+ .text          0x0000000000004064       0x46 /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                0x0000000000004064                __vector_6
+                0x0000000000004082                wdt_init
+                0x000000000000409a                wdt_reset
+                0x000000000000409e                wdt_force_restart
+ .text          0x00000000000040aa      0x43c /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                0x00000000000040aa                serial_init
+                0x00000000000040d0                __vector_18
+                0x0000000000004320                __vector_19
+                0x0000000000004386                serial_rxchars
+                0x0000000000004394                serial_popchar
+                0x00000000000043de                serial_isconnected
+                0x000000000000442c                serial_is_packet_ready
+                0x0000000000004432                serial_writechar
+                0x0000000000004492                serial_writestr
+                0x00000000000044bc                serial_writestr_P
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text          0x00000000000044e6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x00000000000044e6                . = ALIGN (0x2)
+ *(.text.*)
+ .text.startup  0x00000000000044e6      0x778 obj/Release/main.o
+                0x00000000000044e6                main
+ .text.libgcc.mul
+                0x0000000000004c5e       0x20 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                0x0000000000004c5e                __mulsi3
+ .text.libgcc.div
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc   0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.prologue
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.builtins
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fmul
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.fixed
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .text.libgcc.mul
+                0x0000000000004c7e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.div
+                0x0000000000004c7e       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                0x0000000000004c7e                __udivmodhi4
+ .text.libgcc   0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000004ca6        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.div
+                0x0000000000004ca6       0x28 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                0x0000000000004ca6                __divmodhi4
+                0x0000000000004ca6                _div
+ .text.libgcc   0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.prologue
+                0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.builtins
+                0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fmul
+                0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.fixed
+                0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .text.libgcc.mul
+                0x0000000000004cce        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x0000000000004cce       0x44 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                0x0000000000004cce                __udivmodsi4
+ .text.libgcc   0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000004d12        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x0000000000004d12       0x2e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                0x0000000000004d12                __divmodsi4
+ .text.libgcc   0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.fixed
+                0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x0000000000004d40        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.div
+                0x0000000000004d40       0x10 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                0x0000000000004d40                __negsi2
+ .text.libgcc   0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.prologue
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.builtins
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fmul
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.fixed
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .text.libgcc.mul
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x0000000000004d50        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc   0x0000000000004d50        0xc /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                0x0000000000004d50                __tablejump2__
+ .text.libgcc.prologue
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.div
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc   0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.prologue
+                0x0000000000004d5c        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.builtins
+                0x0000000000004d5c        0xe /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+                0x0000000000004d5c                __bswapsi2
+ .text.libgcc.fmul
+                0x0000000000004d6a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.fixed
+                0x0000000000004d6a        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .text.libgcc.mul
+                0x0000000000004d6a       0x1e /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                0x0000000000004d6a                __umulhisi3
+ .text.libgcc.div
+                0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000004d88        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x0000000000004d88       0x16 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000004d88                __muluhisi3
+ .text.libgcc.div
+                0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc   0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.prologue
+                0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.builtins
+                0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fmul
+                0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ .text.libgcc.fixed
+                0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                0x0000000000004d9e                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000000000004d9e        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                0x0000000000004d9e                exit
+                0x0000000000004d9e                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000000000004d9e        0x4 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000000000004da2                _etext = .
+
+.siminfo        0x0000000000004da2       0x28
+ .siminfo       0x0000000000004da2       0x28 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                0x0000000000004da2                siminfo_serial_out
+                0x0000000000004dad                siminfo_serial_in
+                0x0000000000004db8                siminfo_cpufrequency
+                0x0000000000004dbe                siminfo_device
+
+.data           0x0000000000800100      0x30c load address 0x0000000000004dca
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .data          0x0000000000800100       0x12 obj/Release/main.o
+                0x0000000000800100                crlf
+                0x0000000000800102                gpd_400
+                0x0000000000800104                p_d_200
+                0x0000000000800106                get_200
+                0x0000000000800108                del_log
+                0x000000000080010a                put_config
+                0x000000000080010c                put_device
+                0x000000000080010e                get_device
+                0x0000000000800110                current_temperature
+ .data          0x0000000000800112        0x0 /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+ .data          0x0000000000800112       0x12 /home/augoodma/Desktop/test/lib_projd.a(config.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(led.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(log.o)
+ .data          0x0000000000800124        0x0 /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+ .data          0x0000000000800124       0x14 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(str.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+ .data          0x0000000000800138        0x0 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+ .data          0x0000000000800138        0x8 /home/augoodma/Desktop/test/lib_projd.a(util.o)
+ .data          0x0000000000800140        0x0 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+ .data          0x0000000000800140        0x0 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+ .data          0x0000000000800140        0x0 /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+ .data          0x0000000000800140        0x0 /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .data          0x0000000000800140        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.data*)
+ *(.rodata)
+ .rodata        0x0000000000800140        0x4 obj/Release/main.o
+ .rodata        0x0000000000800144        0x4 /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+ .rodata        0x0000000000800148        0x4 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+ .rodata        0x000000000080014c        0x4 /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+ .rodata        0x0000000000800150        0xc /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+ .rodata        0x000000000080015c        0x6 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+ .rodata        0x0000000000800162       0x37 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+ .rodata        0x0000000000800199       0x10 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00000000008001a9      0x1ec obj/Release/main.o
+                                        0x1f3 (size before relaxing)
+ .rodata.str1.1
+                0x0000000000800395        0xa /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                                          0xf (size before relaxing)
+ .rodata.str1.1
+                0x000000000080039f        0x7 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+ .rodata.str1.1
+                0x00000000008003a6       0x13 /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+ .rodata.str1.1
+                0x00000000008003b9       0x14 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+ .rodata.str1.1
+                0x00000000008003cd       0x3a /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+ .rodata.str1.1
+                0x0000000000800407        0x4 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                          0x6 (size before relaxing)
+ .rodata.str1.1
+                0x000000000080040b        0x3 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+ *(.gnu.linkonce.d*)
+                0x000000000080040e                . = ALIGN (0x2)
+ *fill*         0x000000000080040b        0x1 
+                0x000000000080040c                _edata = .
+                0x000000000080040c                PROVIDE (__data_end, .)
+
+.bss            0x000000000080040c      0x206
+                0x000000000080040c                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x000000000080040c        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+ .bss           0x000000000080040c        0x2 obj/Release/main.o
+                0x000000000080040c                error
+ .bss           0x000000000080040e        0x0 /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+ .bss           0x000000000080040e        0x1 /home/augoodma/Desktop/test/lib_projd.a(config.o)
+ .bss           0x000000000080040f        0xe /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+ .bss           0x000000000080041d       0x43 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+ .bss           0x0000000000800460        0x0 /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+ .bss           0x0000000000800460        0x5 /home/augoodma/Desktop/test/lib_projd.a(led.o)
+ .bss           0x0000000000800465       0x83 /home/augoodma/Desktop/test/lib_projd.a(log.o)
+ .bss           0x00000000008004e8        0x0 /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+ .bss           0x00000000008004e8        0x0 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+ .bss           0x00000000008004e8        0x0 /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+ .bss           0x00000000008004e8        0x2 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+ .bss           0x00000000008004ea        0x1 /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+ .bss           0x00000000008004eb        0x0 /home/augoodma/Desktop/test/lib_projd.a(str.o)
+ .bss           0x00000000008004eb        0x0 /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+ .bss           0x00000000008004eb        0x2 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+ .bss           0x00000000008004ed        0x4 /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+ .bss           0x00000000008004f1        0x0 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+ .bss           0x00000000008004f1        0x0 /home/augoodma/Desktop/test/lib_projd.a(util.o)
+ .bss           0x00000000008004f1        0x0 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+ .bss           0x00000000008004f1        0x1 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+ .bss           0x00000000008004f2        0x0 /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+ .bss           0x00000000008004f2        0x7 /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                0x00000000008004f2                txtail
+                0x00000000008004f3                txhead
+                0x00000000008004f4                rxtail
+                0x00000000008004f5                rxhead
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+ .bss           0x00000000008004f9        0x0 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00000000008004f9        0x7 obj/Release/main.o
+                0x00000000008004f9                state
+                0x00000000008004fb                num
+                0x00000000008004fd                num_logs
+                0x00000000008004ff                buf
+ COMMON         0x0000000000800500       0x12 /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                0x0000000000800500                config
+ COMMON         0x0000000000800512       0x45 /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                0x0000000000800512                write_busy
+                0x0000000000800513                writeaddr
+                0x0000000000800515                writesize
+                0x0000000000800516                writebuf
+                0x0000000000800556                bufidx
+ COMMON         0x0000000000800557        0x4 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                0x0000000000800557                rtc_base
+ COMMON         0x000000000080055b       0x37 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                0x000000000080055b                vpd
+ COMMON         0x0000000000800592       0x80 /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                0x0000000000800592                rxbuf
+                0x00000000008005d2                txbuf
+                0x0000000000800612                PROVIDE (__bss_end, .)
+                0x0000000000004dca                __data_load_start = LOADADDR (.data)
+                0x00000000000050d6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0000000000800612        0x0
+                [!provide]                        PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                        PROVIDE (__noinit_end, .)
+                0x0000000000800612                _end = .
+                [!provide]                        PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 obj/Release/main.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(config.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(led.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(log.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(str.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(util.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+ .comment       0x0000000000000011       0x12 /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+
+.note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x0000000000000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000      0x5f4
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000      0x5f4 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_abbrev   0x0000000000000000      0x5a2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x5a2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_line     0x0000000000000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0x208
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x208 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(bin/Release/finalproject.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+W5x_config                                        /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  obj/Release/main.o
+W5x_execCmdSn                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_getRXReceivedSize                             /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_getTXFreeSize                                 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_init                                          /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  obj/Release/main.o
+W5x_read                                          /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readIR                                        /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readMR                                        /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readRTR                                       /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSn                                        /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnCR                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnDHAR                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnDIPR                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnDPORT                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnIR                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_readSnMR                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_readSnMSSR                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnPORT                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnRX_RD                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_readSnRX_RSR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnRX_WR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnSR                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_readSnTX_FSR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnTX_RD                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readSnTX_WR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readUPORT                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_read_data                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_readbuf                                       /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufGAR                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufSHAR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufSIPR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufSUBR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufSn                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_readbufUIPR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_recv_data_processing                          /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_recv_data_processing_offset                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_send_data_processing                          /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_send_data_processing_offset                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_write                                         /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeIR                                       /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeMR                                       /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeRTR                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSn                                       /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnCR                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnDHAR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnDIPR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnDPORT                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnIR                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnMR                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnMSSR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnPORT                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnRX_RD                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+W5x_writeSnRX_RSR                                 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnRX_WR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnSR                                     /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnTX_FSR                                 /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnTX_RD                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeSnTX_WR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writeUPORT                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebuf                                      /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufGAR                                   /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufSHAR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufSIPR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufSUBR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufSn                                    /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+W5x_writebufUIPR                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+_ZN9DhcpClass10checkLeaseEv                       /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass10getLocalIpEv                       /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass12getGatewayIpEv                     /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass12presend_DHCPEv                     /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass13beginWithDHCPEPhmm                 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass13getSubnetMaskEv                    /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass14getDnsServerIpEv                   /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass15getDhcpServerIpEv                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass16reset_DHCP_leaseEv                 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass17parseDHCPResponseEmRm              /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass17send_DHCP_MESSAGEEhj               /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass18request_DHCP_leaseEv               /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+_ZN9DhcpClass9printByteEPch                       /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+__FUSE_REGION_LENGTH__                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bad_interrupt                                   /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__bss_end                                         /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+__bswapsi2                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_bswapsi2.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+__data_end                                        /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+__divmodhi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+__divmodsi4                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_clear_bss.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  obj/Release/main.o
+__do_copy_data                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_copy_data.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                                                  obj/Release/main.o
+__heap_end                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__init                                            /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__mulsi3                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+__muluhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_mulsi3.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+__negsi2                                          /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_negsi2.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+__stack                                           /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__tablejump2__                                    /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_tablejump2.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  obj/Release/main.o
+__udivmodhi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodhi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+__udivmodsi4                                      /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_udivmodsi4.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodsi4.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+__umulhisi3                                       /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_umulhisi3.o)
+                                                  /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_muluhisi3.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+__vector_1                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_10                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_11                                       /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_12                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_13                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_14                                       /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_15                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_16                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_17                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_18                                       /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_19                                       /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_2                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_20                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_21                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_22                                       /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_23                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_24                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_25                                       /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_3                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_4                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_5                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_6                                        /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_7                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_8                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_9                                        /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vector_default                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+__vectors                                         /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+_div                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_divmodhi4.o)
+_exit                                             /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+alarm_init                                        /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+alarm_send                                        /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  obj/Release/main.o
+buf                                               obj/Release/main.o
+bufidx                                            /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+check_for_test_start                              /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  obj/Release/main.o
+config                                            /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  obj/Release/main.o
+config_init                                       /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  obj/Release/main.o
+config_is_data_valid                              /home/augoodma/Desktop/test/lib_projd.a(config.o)
+config_set_modified                               /home/augoodma/Desktop/test/lib_projd.a(config.o)
+config_update                                     /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  obj/Release/main.o
+config_update_noisr                               /home/augoodma/Desktop/test/lib_projd.a(config.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+config_write_defaults                             /home/augoodma/Desktop/test/lib_projd.a(config.o)
+crlf                                              obj/Release/main.o
+current_temperature                               obj/Release/main.o
+del_log                                           obj/Release/main.o
+delay_get                                         /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+delay_init                                        /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+delay_isdone                                      /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(led.o)
+delay_set                                         /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  obj/Release/main.o
+dhcp_checkLease                                   /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+dhcp_getDhcpServerIp                              /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+dhcp_getDnsServerIp                               /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+dhcp_getGatewayIp                                 /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_getLocalIp                                   /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_getSubnetMask                                /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  obj/Release/main.o
+dhcp_start                                        /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  obj/Release/main.o
+eeprom_isbusy                                     /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+eeprom_readbuf                                    /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+eeprom_startwrite                                 /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+eeprom_writebuf                                   /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+eeprom_writebuf_noisr                             /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+error                                             obj/Release/main.o
+exit                                              /usr/lib/gcc/avr/5.4.0/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+get_200                                           obj/Release/main.o
+get_device                                        obj/Release/main.o
+get_month                                         /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+gpd_400                                           obj/Release/main.o
+isW5100                                           /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+isW5500                                           /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+is_leapyear                                       /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+led_init                                          /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  obj/Release/main.o
+led_is_on                                         /home/augoodma/Desktop/test/lib_projd.a(led.o)
+led_off                                           /home/augoodma/Desktop/test/lib_projd.a(led.o)
+led_on                                            /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+led_set_blink                                     /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+led_update                                        /home/augoodma/Desktop/test/lib_projd.a(led.o)
+                                                  obj/Release/main.o
+log_add_record                                    /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  obj/Release/main.o
+log_clear                                         /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  obj/Release/main.o
+log_get_num_entries                               /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  obj/Release/main.o
+log_get_record                                    /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  obj/Release/main.o
+log_init                                          /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  obj/Release/main.o
+log_is_data_valid                                 /home/augoodma/Desktop/test/lib_projd.a(log.o)
+log_update                                        /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  obj/Release/main.o
+log_update_noisr                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+main                                              obj/Release/main.o
+                                                  /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr5/crtatmega328p.o
+mem_cmp                                           /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+mem_cpy                                           /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+mem_set                                           /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+millis                                            /home/augoodma/Desktop/test/lib_projd.a(delay.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+ntp_sync_network_time                             /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  obj/Release/main.o
+num                                               obj/Release/main.o
+num_logs                                          obj/Release/main.o
+p_d_200                                           obj/Release/main.o
+put_config                                        obj/Release/main.o
+put_device                                        obj/Release/main.o
+random                                            /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+random_seed                                       /home/augoodma/Desktop/test/lib_projd.a(util.o)
+rtc_base                                          /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+rtc_get_date                                      /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+rtc_get_date_string                               /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+rtc_init                                          /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  obj/Release/main.o
+rtc_num2datestr                                   /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+rtc_set_by_datestr                                /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+rtc_set_date                                      /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+rxbuf                                             /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+rxhead                                            /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+rxtail                                            /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+serial_init                                       /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+serial_is_packet_ready                            /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+serial_isconnected                                /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+serial_popchar                                    /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+serial_rxchars                                    /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+serial_writechar                                  /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+serial_writestr                                   /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+serial_writestr_P                                 /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+signature_set                                     /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  obj/Release/main.o
+siminfo_cpufrequency                              /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+siminfo_device                                    /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+siminfo_serial_in                                 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+siminfo_serial_out                                /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+socket_close                                      /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_connect                                    /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_disconnect                                 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_flush_line                                 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_igmpsend                                   /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_is_active                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_is_blank_line                              /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_is_closed                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_is_established                             /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_is_listening                               /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_listen                                     /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_open                                       /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_peek                                       /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_received_line                              /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_recv                                       /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_recv_available                             /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_recv_compare                               /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_recv_int                                   /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_send                                       /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_write_macaddress                           /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_writechar                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_writedate                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_writedec32                                 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_writehex16                                 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_writehex8                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+socket_writequotedstring                          /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+socket_writestr                                   /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  obj/Release/main.o
+spi_begin_transfer                                /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+spi_end_transfer                                  /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+spi_init                                          /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                                                  obj/Release/main.o
+spi_is_locked                                     /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+spi_transfer                                      /home/augoodma/Desktop/test/lib_projd.a(spi.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(w5x00.o)
+state                                             obj/Release/main.o
+str_cmp                                           /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+str_cpy                                           /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+str_len                                           /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+str_writeudec16                                   /home/augoodma/Desktop/test/lib_projd.a(str.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+strtoi                                            /home/augoodma/Desktop/test/lib_projd.a(util.o)
+temp_get                                          /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  obj/Release/main.o
+temp_init                                         /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  obj/Release/main.o
+temp_is_data_ready                                /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  obj/Release/main.o
+temp_start                                        /home/augoodma/Desktop/test/lib_projd.a(temp.o)
+                                                  obj/Release/main.o
+tempfsm_init                                      /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  obj/Release/main.o
+tempfsm_reset                                     /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+tempfsm_update                                    /home/augoodma/Desktop/test/lib_projd.a(tempfsm.o)
+                                                  obj/Release/main.o
+timer1_clear                                      /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+timer1_get                                        /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+timer1_init                                       /home/augoodma/Desktop/test/lib_projd.a(timer1.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(rtc.o)
+txbuf                                             /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+txhead                                            /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+txtail                                            /home/augoodma/Desktop/test/lib_projd.a(serial.o)
+uart_init                                         /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  obj/Release/main.o
+uart_is_connected                                 /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_is_packet_available                          /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_readpacket                                   /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_writechar                                    /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_writedec32                                   /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+uart_writehex16                                   /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_writehex8                                    /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+uart_writeip                                      /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  obj/Release/main.o
+uart_writestr                                     /home/augoodma/Desktop/test/lib_projd.a(uart.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                                                  obj/Release/main.o
+udpsocket_add_to_datagram                         /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+udpsocket_close                                   /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+udpsocket_is_closed                               /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+udpsocket_is_open                                 /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+udpsocket_open                                    /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+udpsocket_open_multicast                          /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+udpsocket_recv_available                          /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+udpsocket_recv_data                               /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+udpsocket_recvfrom                                /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+udpsocket_send_datagram                           /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+udpsocket_sendto                                  /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(ntp.o)
+udpsocket_start_datagram                          /home/augoodma/Desktop/test/lib_projd.a(socket.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(Dhcp.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+update_checksum                                   /home/augoodma/Desktop/test/lib_projd.a(util.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(log.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(config.o)
+vpd                                               /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(signature.o)
+                                                  /home/augoodma/Desktop/test/lib_projd.a(alarm.o)
+                                                  obj/Release/main.o
+vpd_init                                          /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+                                                  obj/Release/main.o
+vpd_is_data_valid                                 /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+vpd_write_defaults                                /home/augoodma/Desktop/test/lib_projd.a(vpd.o)
+wdt_force_restart                                 /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+wdt_init                                          /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                                                  obj/Release/main.o
+wdt_reset                                         /home/augoodma/Desktop/test/lib_projd.a(wdt.o)
+                                                  obj/Release/main.o
+write_busy                                        /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+writeaddr                                         /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+writebuf                                          /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)
+writesize                                         /home/augoodma/Desktop/test/lib_projd.a(eeprom.o)

@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1607041934 source:/home/augoodma/Desktop/Project 8/main.c
+	"config.h"
+	"delay.h"
+	"dhcp.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"spi.h"
+	"uart.h"
+	"vpd.h"
+	"temp.h"
+	"socket.h"
+	"alarm.h"
+	"wdt.h"
+	"tempfsm.h"
+	"eeprom.h"
+	"ntp.h"
+	"w51.h"
+	"signature.h"
+
+1606937800 /home/augoodma/Desktop/Project 8/config.h
+
+1606937800 /home/augoodma/Desktop/Project 8/delay.h
+
+1606937800 /home/augoodma/Desktop/Project 8/dhcp.h
+
+1606937800 /home/augoodma/Desktop/Project 8/led.h
+
+1606937800 /home/augoodma/Desktop/Project 8/log.h
+
+1606937800 /home/augoodma/Desktop/Project 8/rtc.h
+
+1606937800 /home/augoodma/Desktop/Project 8/spi.h
+
+1606937800 /home/augoodma/Desktop/Project 8/uart.h
+
+1606937800 /home/augoodma/Desktop/Project 8/vpd.h
+
+1606937800 /home/augoodma/Desktop/Project 8/temp.h
+
+1606937800 /home/augoodma/Desktop/Project 8/socket.h
+
+1606937800 /home/augoodma/Desktop/Project 8/alarm.h
+
+1606937800 /home/augoodma/Desktop/Project 8/wdt.h
+
+1606937800 /home/augoodma/Desktop/Project 8/tempfsm.h
+
+1606937800 /home/augoodma/Desktop/Project 8/eeprom.h
+
+1606937800 /home/augoodma/Desktop/Project 8/ntp.h
+
+1606947890 /home/augoodma/Desktop/Project 8/w51.h
+
+1606937800 /home/augoodma/Desktop/Project 8/signature.h
+
+1607048077 source:/home/augoodma/Desktop/test/main.c
+	"config.h"
+	"delay.h"
+	"dhcp.h"
+	"led.h"
+	"log.h"
+	"rtc.h"
+	"spi.h"
+	"uart.h"
+	"vpd.h"
+	"temp.h"
+	"socket.h"
+	"alarm.h"
+	"wdt.h"
+	"tempfsm.h"
+	"eeprom.h"
+	"ntp.h"
+	"w51.h"
+	"signature.h"
+
+1606937800 /home/augoodma/Desktop/test/config.h
+
+1606937800 /home/augoodma/Desktop/test/delay.h
+
+1606937800 /home/augoodma/Desktop/test/dhcp.h
+
+1606937800 /home/augoodma/Desktop/test/led.h
+
+1606937800 /home/augoodma/Desktop/test/log.h
+
+1606937800 /home/augoodma/Desktop/test/rtc.h
+
+1606937800 /home/augoodma/Desktop/test/spi.h
+
+1606937800 /home/augoodma/Desktop/test/uart.h
+
+1606937800 /home/augoodma/Desktop/test/vpd.h
+
+1606937800 /home/augoodma/Desktop/test/temp.h
+
+1606937800 /home/augoodma/Desktop/test/socket.h
+
+1606937800 /home/augoodma/Desktop/test/alarm.h
+
+1606937800 /home/augoodma/Desktop/test/wdt.h
+
+1606937800 /home/augoodma/Desktop/test/tempfsm.h
+
+1606937800 /home/augoodma/Desktop/test/eeprom.h
+
+1606937800 /home/augoodma/Desktop/test/ntp.h
+
+1606947890 /home/augoodma/Desktop/test/w51.h
+
+1606937800 /home/augoodma/Desktop/test/signature.h
+

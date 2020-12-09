@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1604983992 source:/home/augoodma/Desktop/Project 5/delay.c
+
+1605049912 source:/home/augoodma/Desktop/Project 5/led.c
+	"led.h"
+	"delay.h"
+
+1605052239 source:/home/augoodma/Desktop/Project 5/main.c
+	"delay.h"
+	"led.h"
+	"timer1.h"
+	"rtc.h"
+	"uart.h"
+
+1604866272 /home/augoodma/Desktop/Project 5/delay.h
+
+1604866278 /home/augoodma/Desktop/Project 5/led.h
+
+1604866291 /home/augoodma/Desktop/Project 5/timer1.h
+
+1604866284 /home/augoodma/Desktop/Project 5/rtc.h
+
+1604866298 /home/augoodma/Desktop/Project 5/uart.h
+
+1605218566 source:/home/augoodma/Desktop/Project 5/timer1.c
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1604021591 source:/home/augoodma/Desktop/Project 3/main.c
+	"hw4lib.h"
+	"output.h"
+
+1603922192 /home/augoodma/Desktop/Project 3/hw4lib.h
+
+1603922185 /home/augoodma/Desktop/Project 3/output.h
+
+1604021896 source:/home/augoodma/Desktop/Project 3/output.c
+	"hw4lib.h"
+
